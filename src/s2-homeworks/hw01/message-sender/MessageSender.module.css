@@ -10,6 +10,7 @@
 .textarea {
     box-sizing: border-box;
     width: 976px;
+    height: 30px;
     padding: 0 5px;
     margin-right: 44px;
     background: #F5F7FB;
