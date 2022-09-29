@@ -1,5 +1,6 @@
 .sendForm {
     padding: 0 70px;
+    width: max-content;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -8,7 +9,7 @@
 .textarea {
     box-sizing: border-box;
     width: 976px;
-    height: 30px;
+    min-height: 30px;
     padding: 0 5px;
     margin-right: 44px;
     background: #F5F7FB;
