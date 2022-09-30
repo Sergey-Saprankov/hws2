@@ -42,7 +42,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                         id={'hw3-input'}
                         value={name}
                         onChange={setNameCallback}
-                        className={inputClass}
+                        className={`${inputClass} ${s.input}`}
                         onKeyDown={onEnter}
                         onBlur={onBlur}
                     />
@@ -57,7 +57,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                     className={s.button}
                     disabled={!name.trim()}
                 >
-                    add
+                    Add
                 </button>
             </div>
 
