@@ -6,6 +6,8 @@ body {
 
   .App {
     --header_height: 60px;
+      padding:0 70px;
+      position: relative;
 }
 
 .hw {
@@ -13,5 +15,5 @@ body {
 }
 
 .hwTitle {
-
+    padding: 50px 0;
 }
