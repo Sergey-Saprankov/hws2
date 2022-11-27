@@ -1,8 +1,19 @@
 .container {
+    max-width: 270px;
+    color: #000;
 }
 
 .wrapper {
+    display: flex;
+    justify-content: space-between;
 }
 
-.number {
+.number:first-child {
+    align-self: center;
+    margin-right: 30px;
+}
+
+.number:last-child {
+    align-self: center;
+    transform: translateX(10px);
 }
